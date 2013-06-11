@@ -222,6 +222,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
@@ -238,10 +239,11 @@
 				LEX = "$(SRCROOT)/Utilities/usr/bin/flex";
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = mh_dylib;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = AutoHyperlinks;
-				SDKROOT = macosx10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.8;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
@@ -255,12 +257,12 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.8;
 				SYMROOT = build;
 				VALID_ARCHS = "i386 x86_64";
 			};

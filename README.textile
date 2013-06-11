@@ -1,12 +1,12 @@
 h1. AutoHyperlinks framework
 
-AutoHyperlinks is a Cocoa framework that handles the detection of hyperlinks in normal language, leaving you, the developer, free to concentrate on the core functionality of your application. AutoHyperlinks is the framework used by Adium to scan for URLs in strings and other text containers. This repository is my personal fork, it's aimed to be a lightweight version with an improved codebase, automatic reference counting and no additional build targets. I initially created this fork to bundle a contemporary optimized variant of AutoHyperlinks with my app 'Ascension'. AutoHyperlinks gives you a framework with a flex based lexer and two Objective-C classes in it: AHMarkedHyperlink and AHHyperlinkScanner. These two classes can work together to identify and add the NSLinkAttributeNames, or you can simply gather all the links strings and do whatever you want with them.
+AutoHyperlinks is a Cocoa framework that handles the detection of hyperlinks in normal language, leaving you, the developer, free to concentrate on the core functionality of your application. AutoHyperlinks is the framework used by Adium to scan for URLs in strings and other text containers. This repository is my personal fork, it's aimed to be a lightweight version with an improved codebase, automatic reference counting and no additional build targets. I initially created this fork to bundle a contemporary optimized variant of AutoHyperlinks with my apps 'Ascension' and 'Escapes'. AutoHyperlinks gives you a framework with a flex based lexer and two Objective-C classes in it: AHMarkedHyperlink and AHHyperlinkScanner. These two classes can work together to identify and add the NSLinkAttributeNames, or you can simply gather all the links strings and do whatever you want with them. Note that you have to codesign the Framework with your identity / provisioning profile for Mac App Store distribution.
 
 h2. Features of this fork
 
  * Automatic Reference Counting (ARC)
  * Latest flex / libfl.a versions bundled
- * Built for Mac OS X Lion+ (10.7 base SDK)
+ * Built for Mac OS X Mountain Lion+ (10.8 base SDK)
  * Intel 64-bit variant
  * Mac App Store conform
 
@@ -17,7 +17,7 @@ Please refer to the "AutoHyperlinks documentation":http://trac.adium.im/wiki/Aut
 h2. Credits
 
 AutoHyperlinks Framework
-Copyright (c) 2011-2012 Stefan Vogt.
+Copyright (c) 2011-2013 Stefan Vogt.
 "http://byteproject.net":http://byteproject.net
 
 Originally developed by the following:

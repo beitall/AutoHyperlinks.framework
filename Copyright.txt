@@ -1,12 +1,12 @@
 /*
  * AutoHyperlinks framework
- * Copyright (C) 2011-2012 Stefan Vogt.
+ * Copyright (C) 2011-2013 Stefan Vogt.
  * http://www.byteproject.net
  * 
  * Features of this fork:
  *	# Automatic Reference Counting (ARC)
  *	# Latest flex / libfl.a versions bundled
- *	# Built for Mac OS X Lion (10.7 base SDK)
+ *	# Built for Mac OS X Mountain Lion (10.8 base SDK)
  *	# Intel 64-bit variant
  *	# Mac App Store conform
  *
